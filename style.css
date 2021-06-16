@@ -3,20 +3,43 @@ body {
   padding: 0;
 }
 header {
-  background-color: blueviolet;
+  background-color: #a8dadc;
   height: 50px;
+}
+header h1 {
+  display: inline;
+}
+
+.navbar {
   text-align: right;
-  position: relative;
+  float: right;
+  margin: 20px 10px;
 }
 
-a {
-  margin: 10px;
-  /* position: absolute; */
+.navbar a {
+  margin-left: 10px;
 }
 
+figure {
+  width: 50%;
+}
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
 }
+
+.contact {
+  width: 30%;
+}
+
+
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  background-color: #a8dadc;
+}
+
+
+
