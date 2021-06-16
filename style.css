@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: blueviolet;
+  height: 50px;
+  text-align: right;
+  position: relative;
+}
+
+a {
+  margin: 10px;
+  /* position: absolute; */
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
